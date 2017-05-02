@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace MVC5RealWorld.Models.ViewModel
+namespace DemoWebsite.Models.ViewModel
 {
 
     public class UserSignUpView

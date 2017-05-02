@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
-using MVC5RealWorld.Models.DB;
-using MVC5RealWorld.Models.ViewModel;
+using DemoWebsite.Models.DB;
+using DemoWebsite.Models.ViewModel;
 
-namespace MVC5RealWorld.Models.EntityManager
+namespace DemoWebsite.Models.EntityManager
 {
     public class UserManager
     {
@@ -19,7 +19,7 @@ namespace MVC5RealWorld.Models.EntityManager
                 SU.RowCreatedSYSUserID = user.SYSUserID > 0 ? user.SYSUserID : 1;
                 SU.RowModifiedSYSUserID = user.SYSUserID > 0 ? user.SYSUserID : 1; ;
                 SU.RowCreatedDateTime = DateTime.Now;
-                SU.RowMOdifiedDateTime = DateTime.Now;
+                SU.RowModifiedDateTime = DateTime.Now;
 
                 db.SYSUsers.Add(SU);
                 db.SaveChanges();
