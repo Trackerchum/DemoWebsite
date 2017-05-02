@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace MVC5RealWorld.Controllers
+namespace DemoWebsite.Controllers
 {
     public class HomeController : Controller
     {

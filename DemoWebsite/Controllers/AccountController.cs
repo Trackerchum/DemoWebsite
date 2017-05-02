@@ -1,13 +1,13 @@
 ﻿using System.Web.Mvc;
 using System.Web.Security;
-using MVC5RealWorld.Models.ViewModel;
-using MVC5RealWorld.Models.EntityManager;
+using DemoWebsite.Models.ViewModel;
+using DemoWebsite.Models.EntityManager;
 
-namespace MVC5RealWorld.Controllers
+namespace DemoWebsite.Controllers
 {
     public class AccountController : Controller
     {
-        public ActionResult SignUp() //TODO: add view
+        public ActionResult SignUp() 
         {
             return View();
         }
