@@ -31,5 +31,7 @@ namespace DemoWebsite.Models.DB
         public virtual DbSet<SYSUserRole> SYSUserRoles { get; set; }
 
         public System.Data.Entity.DbSet<DemoWebsite.Models.ViewModel.UserSignUpView> UserSignUpViews { get; set; }
+
+        public System.Data.Entity.DbSet<DemoWebsite.Models.ViewModel.UserLoginView> UserLoginViews { get; set; }
     }
 }
